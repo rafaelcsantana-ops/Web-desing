@@ -1,37 +1,60 @@
-/*reset*/
-*{
-    margin: 0%;
-    padding: 0%;
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    background: linear-gradient(35deg,#e9ecef,#9fb3c6);
-}
-
-.conteiner{
+  }
+  
+  body {
+    font-family: playbill;
+    color: #333;
+    background: linear-gradient(to right, #315a82, #0c58a0);
+  }
+  
+  .container {
     background-color: #fff;
-    width: 500px;
+    max-width: 900px;
     margin: 20px auto;
     padding: 20px;
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0,5)
-}
-
-.heard {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  }
+  
+  .header {
     text-align: center;
-    margin-bottom: 24px
-}
-
-.heard img{
+    margin-bottom: 24px;
+  }
+  
+  .header img {
     width: 200px;
-    margin: 0 auto
-}
-
-.heard h1{
-    background-color: #9fb3c6;
+    margin: 0 auto;
+  }
+  
+  .header h1 {
     font-size: 1.4rem;
-    margin-top: -50px;
+    margin-top: -30px;
+  }
+  
+  .feature-img {
+    margin: 20px 0;
+  }
+  
+  .feature-img figure img {
+    width: 100%;
+  }
+
+  figcaption {
+
+    text-align: left;
+  }
+
+.biografia h2{
+    border-left: #333;
+    padding: 12px;
+    margin: 20px auto;
+    font-size: 1.8rem;
+}
+.biografia p{
+    background-color: aqua;
+    margin: 
 }
