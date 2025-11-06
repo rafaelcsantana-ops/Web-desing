@@ -56,5 +56,53 @@
 }
 .biografia p{
     background-color: aqua;
-    margin: 
-}
+    margin: }
+
+    .citação {
+      background-color: #fff;
+      border-radius: 10px;
+      width: 50px;
+      padding: 20px;
+    }
+
+    .citação blockquote {
+      color: #000;
+      font-style: italic;
+      font-size: 1.2rem;
+    }
+
+    .citação p{
+      color: #333;
+      margin-top: 20px;
+      font-size: 1rem;
+      font-style: normal;
+    }
+
+    .curisidades {
+      padding: 20px;
+    }
+
+    .curisidades h2 {
+      padding: 12px;
+      margin: 20px auto;
+      font-size: 1.8rem;
+    }
+
+    .curisidades ul{
+      list-style: disc inside;
+      padding-left: 20px;
+    }
+
+    .curisidades li {
+      margin: 6px 0;
+      color: #000;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 20px;
+    }
+    footer h2 {
+      padding: 12px;
+      font-size: 1.8rem;
+    }
